@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+header {
+    background-color: black;
+    color: white;
+    height: 50px;
+}
+
+.speaker-view {
+    color: white;
+}
+
+.container {
+width: 100%;
+}
+
+.speaker {
+    width: 200px;
+    height: 100px;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
