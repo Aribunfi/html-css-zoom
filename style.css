@@ -14,12 +14,24 @@ header {
 }
 
 .container {
-width: 100%;
+    width: 100%;
+    display: flex;
+    z-index: 1;
+    position: relative;
 }
 
 .speaker {
     width: 150px;
-    height: 100px;
+    height: 120px;
     display: inline-flex;
     flex-wrap: wrap;
 }
+
+.partecipant {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+}
+
