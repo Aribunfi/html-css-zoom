@@ -7,12 +7,20 @@ header {
     background-color: black;
     color: white;
     height: 50px;
+    text-align: right;
 }
 
 .speaker-view {
     color: white;
 }
 
+#fullscreen {
+    color: white;
+    text-align: right;
+    display:inline-flex;
+    width: 50px;
+    height: 50px;
+}
 .container {
     width: 100%;
     display: flex;
